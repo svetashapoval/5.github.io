@@ -30,13 +30,21 @@ nav li {
 .data {font-size: 24px;}
 .data ul { margin-top: 0;}
     @media (max-width: 600px) {
-
+nav {
+position: absolute;
+top: 0px;
+left: 5px;
+}
 nav img { display: block; }
 
 nav ul { display: none;
 
-}
+    } 
     
+    nav:hover ul { display: block; } 
+    
+    nav li { display: block; }
+}
  nav img { display: none; }
     @media (max-width: 740px)
     {

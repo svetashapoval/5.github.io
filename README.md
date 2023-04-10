@@ -40,9 +40,9 @@ nav img { display: block; }
 nav ul { 
   display: none;
   background-color:white; 
-  margin-top:  -10px; 
-  padding:  20px; 
-  text-align:  left;
+  margin-top: -10px; 
+  padding: 20px; 
+  text-align: left;
     } 
     
     nav:hover ul { display: block; } 

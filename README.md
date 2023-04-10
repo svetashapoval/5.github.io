@@ -29,6 +29,13 @@ nav li {
 .photo img { width: 100%;}
 .data {font-size: 24px;}
 .data ul { margin-top: 0;}
+    
+    @media (max-width: 740px)
+    {
+.container { display: block;}
+.photo { max-width: 100%;}
+}   
+    
     </style>
 </head> 
   <body>

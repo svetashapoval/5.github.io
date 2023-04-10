@@ -29,7 +29,15 @@ nav li {
 .photo img { width: 100%;}
 .data {font-size: 24px;}
 .data ul { margin-top: 0;}
+    @media (max-width: 600px) {
+
+nav img { display: block; }
+
+nav ul { display: none;
+
+}
     
+ nav img { display: none; }
     @media (max-width: 740px)
     {
 .container { display: block;}

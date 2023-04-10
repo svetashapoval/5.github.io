@@ -5,6 +5,7 @@
 <title>Caтypн</title>
 <link rel="stylesheet" href="responsive.css" /> <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    {html font-size: 24px;}
     .header { text-align: center; }
 
 nav ul { padding: 0;}
@@ -12,8 +13,8 @@ nav ul { padding: 0;}
 nav li {
   list-style: none;
   display: inline;
-  font-size: 24px;
-  margin-right: 8px;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
 }
 
 .container {
@@ -27,7 +28,7 @@ nav li {
 }
 
 .photo img { width: 100%;}
-.data {font-size: 24px;}
+.data {font-size: 1.5rem;}
 .data ul { margin-top: 0;}
     @media (max-width: 600px) {
 nav {
@@ -48,7 +49,17 @@ nav ul {
     nav:hover ul { display: block; } 
     
     nav li { display: block; }
+    
+    h1 { font-size: 1.5rem; }
+
+.data li { 
+    font-size: 1.3rem;
+   line-height: 1.5;
 }
+.header { height: 50px; }
+    }
+}
+    
  nav img { display: none; }
     @media (max-width: 740px)
     {
